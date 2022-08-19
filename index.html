@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ArviS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description"
+        content="Merhaba, ben ArviS. Yaklaşık 2 yıldır Discord'da Bot Developerlık yapıyorum, onun yanında da yeni yazılım dilleri öğreniyorum" />
+    <meta name="keywords" content="arvis," />
+    <meta name="author" content="ArviS" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/blogs.css" />
+    <link rel="stylesheet" href="css/ionicons.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/new-skin/new-skin.css" />
+    <link rel="stylesheet" href="css/template-colors/green.css" />
+    <link rel="stylesheet" href="css/template-dark/dark.css" />
+    <link rel="icon" href="images/arvis.png" type="image/x-icon" />
+  
+  <script type="text/javascript">
+
+function IE(e) {
+     if (navigator.appName == "Microsoft Internet Explorer" && (event.button == "2" || event.button == "3")) {
+          Swal.fire({
+            icon: 'warning',
+  title: 'Oops...',
+  text: 'Sitedeki kodların güvenliği için sağ tık engellendi',
+            
+          
+     })
+          return false;
+     }
+}
+function NS(e) {
+     if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == "2" || e.which == "3") {
+               Swal.fire({
+            icon: 'warning',
+  title: 'Oops...',
+  text: 'Sitedeki kodların güvenliği için sağ tık engellendi',
+          
+     })
+               return false;
+          }
+}
+}
+document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Function("return false");
+//-->
+</script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  
+</head>
+
+<body>
+    <div class="page new-skin">
+        <div class="preloader">
+            <div class="centrize full-width">
+                <div class="vertical-center">
+                    <div class="spinner">
+                        <div class="double-bounce1"></div>
+                        <div class="double-bounce2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Arkaplan -->
+        <div class="background" style="background-image: url(images/bg.jpg);"></div>
+      
+        <div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+            <header class="header">
+                <div class="top-menu">
+                    <ul>
+                        <li class="active">
+                            <a href="#about-card">
+                                <span class="icon ion-person"></span>
+                                <span class="link">Hakkımda</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#resume-card">
+                                <span class="icon ion-android-list"></span>
+                                <span class="link">Özgeçmiş</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#works-card">
+                                <span class="icon ion-paintbrush"></span>
+                                <span class="link">Çalışmalar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacts-card">
+                                <span class="icon ion-at"></span>
+                                <span class="link">İletişim</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="card-started" id="home-card">
+           <!-- Hakkımda Sol -->
+                <div class="profile">
+                    <div class="slide" style="background-image: url(images/bg.jpg);"></div>
+
+                    <!-- profil fotosu -->
+                    <div class="image">
+                        <img src="images/profile.jpg" />
+                    </div>
+
+                    <div class="title">ArviS</div>
+                    <div class="subtitle">Software Developer</div>
+
+                    <div class="social">
+                        <a target="_blank" href="https://discord.gg/4KTyP3nGA8"><span
+                                class="fab fa-discord"></span></a>
+                    </div>
+                </div>
+            </div>
+                <!-- Hakkımda -->
+            <div class="card-inner animated active" id="about-card">
+                <div class="card-wrap">
+                    <div class="content about">
+                        <div class="title">Hakkımda</div>
+                        <div class="row">
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="text-box">
+                                    <p>
+                                        Merhaba, ben ArviS. Yaklaşık 2 yıldır Discord'da Bot Developerlık yapıyorum, onun yanında da yeni yazılım dilleri öğreniyorum
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="info-list">
+                                    <ul>
+                                       <li><strong>İsim</strong> <span id="">Uzay</span></li>
+                                        <li><strong>Yaş</strong> <span id="">18</span></li>
+                                        <li><strong>Adres</strong> İzmir</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                         <!-- Hakkımda Alt -->
+                    <div class="content services">
+                        <div class="title">Yeteneklerim</div>
+                        <div class="row service-items border-line-v">
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                                <div class="service-item">
+                                    <div class="icon"><span class="ion ion-code"></span></div>
+                                    <div class="name"> Web Development</div>
+                                    <p>
+                                       HTML, CSS, JS, PHP
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="service-item">
+                                    <div class="icon"><span class="ion ion-speakerphone"></span></div>
+                                    <div class="name">Seo</div>
+                                    <p>
+                                        ....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                                <div class="service-item">
+                                    <div class="icon"><span class="ion ion-code"></span></div>
+                                    <div class="name"> Discord Development</div>
+                                    <p>
+                                       Discord.JS, Node.JS, Ruby, Electron                                    </p>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-inner" id="resume-card">
+                <div class="card-wrap">
+                <!-- Öz Geçmiş -->
+                    <div class="content resume">
+                        <div class="title">Öz Geçmiş</div>
+                        <div class="row">
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="resume-title border-line-h">
+                                    <div class="icon"><i class="ion ion-university"></i></div>
+                                    <div class="name">Eğitim</div>
+                                </div>
+                                <div class="resume-items ">
+                                    <div class="resume-item border-line-h active">
+                                        <div class="date">09.2019 - Hala Eğtim Alıyor</div>
+                                        <div class="name">Çamlıca Koleji - Eşit Ağırlık</div>
+                                        <div class="company">İzmir</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="content skills">
+                        <div class="title">Yeteneklerim</div>
+                        <div class="row">
+                          <!-- Sol -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="skills-list circles">
+                                    <div class="skill-title border-line-h">
+                                        <div class="icon"><i class="ion ion-code"></i></div>
+                                        <div class="name">Coding</div>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div class="name">HTML / CSS</div>
+                                            <div class="progress p90">
+                                                <span>80%</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">PHP</div>
+                                            <div class="progress p25">
+                                                <span>25%</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">JavaScript</div>
+                                            <div class="progress p60">
+                                                <span>50%</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">MYSQL </div>
+                                            <div class="progress p25">
+                                                <span>25%</span>
+                                            </li>
+                                            <li>
+                                                <div class="name">Node.JS - Discord.JS</div>
+                                                <div class="progress p100">
+                                                    <span>100%</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                          <!-- Sağ -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="skills-list">
+                                    <div class="skill-title border-line-h">
+                                        <div class="icon"><i class="ion ion-easel"></i></div>
+                                        <div class="name">Design</div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-line-h">
+                                            <div class="name">Web Design</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:60%;"></div>
+                                            </div>
+                                        </li>
+                                        <li class="border-line-h">
+                                            <div class="name">Photoshop</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:15%;"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">Graphic Design</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:20%;"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="name">Responsive</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:65%;"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                          <!-- Diller -->
+                            <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div class="skills-list dotted">
+                                    <div class="skill-title border-line-h">
+                                        <div class="icon"><i class="ion ion-flag"></i></div>
+                                        <div class="name">Diller</div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-line-h">
+                                            <div class="name">Türkçe</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:100%;"></div>
+                                            </div>
+                                        </li>
+                                        <li class="border-line-h">
+                                            <div class="name">English</div>
+                                            <div class="progress">
+                                                <div class="percentage" style="width:50%;"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <!-- Çalışmalar -->
+             <div class="card-inner" id="works-card">
+                <div class="card-wrap">
+                    <div class="content works">
+                        <div class="title">Son Çalışmalar</div>
+                        <div class="filter-menu filter-button-group">
+                            <div class="f_btn active">
+                                <label><input type="radio" name="fl_radio" value="grid-item" />Hepsi</label>
+                            </div>
+                            <div class="f_btn">
+                                <label><input type="radio" name="fl_radio" value="webapp" />Discord Botları</label>
+                            </div>
+                        </div>
+                        <div class="row grid-items border-line-v">
+                            <div class="col col-d-6 col-t-6 col-m-12 grid-item game border-line-h">
+                                <div class="box-item">
+                                    <div class="image">
+                                        <a href="images/runied.png" class="has-popup-image">
+                                            <img src="images/runied.png" alt="Runied Marvel - Discord" />
+                                            <span class="info">
+                                                <span class="ion ion-image"></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <a href="images/runied.png" class="name has-popup-image">Runied Marvel</a>
+                                        <div class="category">Discord Sunucusu</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- İletişim -->
+            <div class="card-inner contacts" id="contacts-card">
+                <div class="card-wrap">
+                    <div class="content contacts">
+                        <div class="title">İletişim Bilgileri</div>
+                        <div class="row">
+                            <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                                <div class="info-list">
+                                    <ul>
+                                        <li><strong>Adres  </strong> İzmir</li>
+                                        <li><strong>Email  </strong> arvismix@gmail.com</li>
+                                        <!-- <li><strong>Telefon</strong> +123 654 78900</li> -->
+                                        <li><strong>Discord  </strong> ArviS#0011</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Script -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
+    <script src="js/jquery.slimscroll.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/scripts.js" defer></script>
+
+</body>
+
+</html>
